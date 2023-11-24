@@ -1,0 +1,84 @@
+body {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 330px;
+    color: #fff;
+    text-align: center;
+    background-image: url('../images/clouds-sky.gif') ;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 50px;
+}
+
+.search {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: #48cae4;
+    padding: 10px;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.search .btn-search {
+    border: none;
+    background-color: #48cae4;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.search .magnify-glass {
+    width: 30px;
+    padding: 6px;
+}
+
+.main-content {
+    margin: 30px;
+}
+
+.main-content h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-content .temperature {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.main-content .condition {
+    font-size: 22px;
+}
+
+.secondary-content {
+    color: #000000;
+    background-color: #ffffff;
+    opacity: 0.8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 30px;
+}
+
+.secondary-content .humidity,
+.secondary-content .wind-speed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}

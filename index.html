@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="search">
+            <input type="text" id="input-search" placeholder="Type a city">
+
+            <button class="btn-search">
+                <img class="magnify-glass" src="./src/images/lupa.png" alt="magnify glass">
+            </button>
+        </div>
+
+        <div class="main-content">
+            <h1 id="city">Use the magnifying glass above to see the weather in a city</h1>
+
+            <p class="temperature" id="temperature"></p>
+
+            <img id="icon-condition" src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="icone condição do clima">
+
+            <p class="condition" id="condition"></p>
+        </div>
+
+        <div class="secondary-content">
+            <div class="humidity">
+                <span>Humidity</span>
+                <span id="humidity">--</span>
+            </div>
+
+            <div class="wind-speed">
+                <span>Wind Speed</span>
+                <span id="wind-speed">--</span>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
